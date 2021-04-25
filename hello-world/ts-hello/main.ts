@@ -1,5 +1,5 @@
-let message;
-message = 'abc';
-let endsWithC = message.endsWith('c');
+let log = function (message) {
+  console.log(message);
+}
 
-console.log(endsWithC);
+let doLog = (message) => console.log(message);
