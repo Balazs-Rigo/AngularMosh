@@ -1,13 +1,5 @@
-let a: number;
-let b: boolean;
-let c: string;
-let d: any;
-let e: number[] = [1, 2, 3];
-let f: any[] = [1, true, 'a', false];
+let message;
+message = 'abc';
+let endsWithC = message.endsWith('c');
 
-const ColorRed = 0;
-const ColorGreen = 1;
-const ColorBlue = 2;
-
-enum Color { Red, Green, Blue };
-let backgroundColor = Color.Green;
+console.log(endsWithC);
