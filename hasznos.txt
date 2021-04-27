@@ -1,3 +1,5 @@
 tsc main.ts --target ES5
 
 Creating Components Using Angular CLI  => cmd => ng g c course
+
+Generating Services Using Angular CLI =>ng g s email
