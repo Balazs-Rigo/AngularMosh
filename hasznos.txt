@@ -2,4 +2,8 @@ tsc main.ts --target ES5
 
 Creating Components Using Angular CLI  => cmd => ng g c course
 
-Generating Services Using Angular CLI =>ng g s email
+Generating Services Using Angular CLI  => cmd => ng g s email
+
+install boostrap => npm install bootstrap --save
+
+error? : bootstrap@4.6.0 requires a peer of popper.js@^1.16.1 but none is installed. You must install peer dependencies yourself
