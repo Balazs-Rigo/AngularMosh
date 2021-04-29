@@ -8,7 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class FavoriteComponent implements OnInit {
   isFavorite: boolean;
 
-  constructor() { }
+  constructor() {
+    this.isFavorite = true;
+  }
 
   ngOnInit(): void {
   }
